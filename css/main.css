@@ -16,7 +16,7 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6{
-	font-family: "Cuprum";
+	font-family: "Dosis";
 	font-weight: 300;
 	color: #333;
 }
@@ -34,7 +34,7 @@ a{
 	color: #f85c37;
 }
 
-a:hover, a:focus {
+a:hover, a:focus{
 	color: #7b7b7b;
 	text-decoration: none;
 	outline: 0;
@@ -62,18 +62,18 @@ hr{
 	border-color: #2d2d2d;
 }
 
-.navbar-inverse .navbar-nav > .active > a {
+.navbar-inverse .navbar-nav > .active > a{
 	background-color: #ff7878;
 }
 
-.navbar-inverse .navbar-brand {
+.navbar-inverse .navbar-brand{
 	color: #999;
 	font-weight: bolder;
 	font-size: 22px;
 	letter-spacing: 1px;
 }
 
-#headerwrap {
+#headerwrap{
 	background: url(../img/head-bg.jpg) no-repeat center top;
 	margin-top: -10px;
 	padding-top: 20px;
@@ -121,4 +121,84 @@ hr{
 
 #work-bg{
 	font-size: 40px;
+}
+
+.tilt{
+	trasition: all 0.5s ease;
+	-webkit-trasition: all 0.5s ease;
+	-moz-trasition: all 0.5s ease;
+	-o-trasition: all 0.5s ease;
+	-ms-trasition: all 0.5s ease;
+}
+
+.tilt:hover{
+	transform: rotate(-10deg);
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	-ms-transform: rotate(-10deg);
+}
+
+.tilt img{
+	width: 200px;
+	height: 200px;
+}
+
+.what-we-do-bg{
+	padding-top: 35px;
+	margin-bottom: 0;
+}
+
+
+.what-we-do-bg{
+	font-size: 35px;
+}
+
+#partners{
+	background: #ebebeb;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+
+#partners h4{
+	font-size: 45px;
+}
+
+#partners img{
+	width: 150px;
+	height: 200px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#r {
+	background: #ff7878;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+#r h4{
+	color: white;
+	font-size: 45px;
+}
+
+#r p{
+	color: white;
+}
+
+#footer{
+	background: #2d2d2d;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+#footer i{
+	color: #bdbdbd;
+	font-size: 30px;
+	padding: 20px;
+}
+
+#footer i:hover{
+	color: #f78f78;
 }
