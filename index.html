@@ -41,20 +41,20 @@
 	<div class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container">
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse, .navbar-scrollspy">
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
 				<a class="navbar-brand" href="#">Laptop repairing lab</a>
 			</div>
-			<div class="navbar-collapse collapse">
+			<div class="navbar-collapse collapse navbar-scrollspy">
 				<ul class="nav navbar-nav navbar-right">
-					<li class="active"><a href="#" onclick="alrt()">Домашняя</a></li>
-					<li><a href="#" onclick="alrt()">Цена</a></li>
-					<li><a href="#" onclick="alrt()">О нас</a></li>
-					<li><a href="#" onclick="alrt()">Партнеры</a></li>
-					<li><a href="#" onclick="alrt()"><i class="fa fa-envelope-o" aria-hidden="true"> написать письмо</i></a></li>
+					<li class="active"><a href="#">Домашняя</a></li>
+					<li><a href="#Price">Цена</a></li>
+					<li><a href="#About">О нас</a></li>
+					<li><a href="#Partners">Партнеры</a></li>
+					<li><a href="#Mail"><i class="fa fa-envelope-o" aria-hidden="true"> написать письмо</i></a></li>
 				</ul>
 			</div>
 		</div>
@@ -91,78 +91,80 @@
 		</div>
 		<br><br>
 	</div>
-	<div class="container what-we-do-bg">
-		<div class="row centered">
-			<br><br>
+	<div data-spy="scroll" data-target="#navbar-example" data-offset="0">
+		<div class="container what-we-do-bg" id="About">
+			<div class="row centered">
+				<br><br>
+				<div class="col-lg-8 col-lg-offset-2">
+					<h4>О нас</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+					<p><br><br></p>
+				</div>
+				<div class="col-lg-2"></div>
+				<div class="col-lg-10 col-lg-offset-1">
+					<img src="img/munter.png" alt="" class="img-responsive">
+				</div>
+			</div>
+		</div>
+		<div id="work-bg">
+			<div class="container" id="Price">
+				<div class="row centered">
+					<h4>Цена</h4>
+					<br>
+					<div class="col-lg-4">
+						<div class="tilt">
+							<a href="#"><img src="img/n1.png" alt=""></a>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="tilt">
+							<a href="#"><img src="img/n2.png" alt=""></a>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="tilt">
+							<a href="#"><img src="img/n3.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="partners">
+			<div class="container" id="Partners">
+				<div class="row centered">
+					<h4>Партнеры</h4>
+					<div class="col-lg-3 col-lg-offset-1">
+						<img src="img/fix1.png" alt="">
+					</div>
+					<div class="col-lg-3 col-lg-offset-1">
+						<img src="img/fix2.png" alt="">
+					</div>
+					<div class="col-lg-3 col-lg-offset-1">
+						<img src="img/fix3.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	  <div id="r">
+		<div class="container">
+		  <div class="row centered">
 			<div class="col-lg-8 col-lg-offset-2">
-				<h4>Цена</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-				<p><br><br></p>
+			  <h4>Обратная связь</h4>
+			  <p>Здесь будет форма отпраки письма</p>
 			</div>
-			<div class="col-lg-2"></div>
-			<div class="col-lg-10 col-lg-offset-1">
-				<img src="img/munter.png" alt="" class="img-responsive">
-			</div>
+		  </div>
 		</div>
+	  </div>
 	</div>
-	<div id="work-bg">
+	<div id="footer">
 		<div class="container">
-			<div class="row centered">
-				<h4>О нас</h4>
-				<br>
-				<div class="col-lg-4">
-					<div class="tilt">
-						<a href="#"><img src="img/n1.png" alt=""></a>
-					</div>
-				</div>
-				<div class="col-lg-4">
-					<div class="tilt">
-						<a href="#"><img src="img/n2.png" alt=""></a>
-					</div>
-				</div>
-				<div class="col-lg-4">
-					<div class="tilt">
-						<a href="#"><img src="img/n3.png" alt=""></a>
-					</div>
-				</div>
+		  <div class="row centered">
+			<a href="#" onclick="alrt()"><i class="fa fa-twitter"></i></a>
+			<a href="#" onclick="alrt()"><i class="fa fa-facebook"></i></a>
+			<a href="https://vk.com/id281470372"><i class="fa fa-vk"></i></a>
 			</div>
 		</div>
 	</div>
-	<div id="partners">
-		<div class="container">
-			<div class="row centered">
-				<h4>Партнеры</h4>
-				<div class="col-lg-3 col-lg-offset-1">
-					<img src="img/fix1.png" alt="">
-				</div>
-				<div class="col-lg-3 col-lg-offset-1">
-					<img src="img/fix2.png" alt="">
-				</div>
-				<div class="col-lg-3 col-lg-offset-1">
-					<img src="img/fix3.png" alt="">
-				</div>
-			</div>
-		</div>
-	</div>
-  <div id="r">
-    <div class="container">
-      <div class="row centered">
-        <div class="col-lg-8 col-lg-offset-2">
-          <h4>Обратная связь</h4>
-          <p>Здесь будет форма отпраки письма</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div id="footer">
-    <div class="container">
-      <div class="row centered">
-        <a href="#" onclick="alrt()"><i class="fa fa-twitter"></i></a>
-        <a href="#" onclick="alrt()"><i class="fa fa-facebook"></i></a>
-        <a href="https://vk.com/id281470372"><i class="fa fa-vk"></i></a>
-      </div>
-    </div>
-  </div>
 	
 	<script>
 		function alrt(){
