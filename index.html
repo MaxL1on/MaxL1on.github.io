@@ -98,6 +98,18 @@
 				<div class="col-lg-8 col-lg-offset-2">
 					<h4>О нас</h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+					<div id="map" style="width:400px;height:400px;background:yellow"></div>
+
+					<script>
+					function myMap() {
+					var mapOptions = {
+						center: new google.maps.LatLng(51.5, -0.12),
+						zoom: 10,
+						mapTypeId: google.maps.MapTypeId.HYBRID
+					}
+					var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+					}
+					</script>
 					<p><br><br></p>
 				</div>
 				<div class="col-lg-2"></div>
@@ -171,6 +183,7 @@
 			alert("В разработке");
 			}
 	</script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 </body>
