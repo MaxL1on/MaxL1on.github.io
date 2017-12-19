@@ -277,16 +277,16 @@
 								<img src="https://pp.userapi.com/c638330/v638330146/5c345/heUsgHdfM4E.jpg" width="100" height="100">
 								<p>Максим Левоцкий</p>
 							</a>
-							<div class="media-body">
+							<div class="media-body" style="color: black">
 								Отличный сервис, обязательно посоветую друзьям!
 							</div>
 						</div>
 					</div>
 					<div>
 						<form action="#" method="post" onsubmit="return false">
-								<label>Введите имя:</label><br>
+								<label style="color:black">Введите имя:</label><br>
 								<textarea class="form-control" name="comment" style="resize: none"></textarea><br />
-								<label>Введите комментарий:</label><br>
+								<label style="color:black">Введите комментарий:</label><br>
 								<textarea class="form-control" name="name" style="resize: none"></textarea><br />
 							<input type="submit" name="send" class="btn btn-primary btn-lg btn-block" value="Оставить комментарий" id="done"></input>
 						</form>
@@ -296,7 +296,7 @@
 								$(document).on("click", "input[name='send']", function() {
 									var comment = $("textarea[name='comment']").val ();
 									var name = $("textarea[name='name']").val ();
-									$("<div class='media'><p class='pull-right'><small>few seconds ago</small></p><a class='media-left' style='width: 20%;' href='#'><img src='https://loremflickr.com/100/100/people' width='100' height='100'><p>" + name + "</p></a><div class='media-body'>" + comment + "</div></div>"
+									$("<div class='media'><p class='pull-right'><small>few seconds ago</small></p><a class='media-left' style='width: 20%;' href='#'><img src='https://loremflickr.com/100/100/people' width='100' height='100'><p>" + name + "</p></a><div class='media-body' style='color: black'>" + comment + "</div></div>"
 									).appendTo("#comments");
 								});
 							});
