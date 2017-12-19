@@ -76,7 +76,7 @@ hr{
 #headerwrap{
 	font-weight: bolder;
 	text-shadow: 2px -2px 2px #90A4AE;
-	background: url(../img/head-bg.jpg) no-repeat center top;
+	background: url(http://www.fainaidea.com/wp-content/uploads/2017/08/har_ofis.jpg) no-repeat center top;
 	margin-top: -10px;
 	padding-top: 20px;
 	text-align: center;
@@ -200,4 +200,12 @@ hr{
 
 #footer i:hover{
 	color: #f78f78;
+}
+.user_name{
+    font-size:14px;
+    font-weight: bold;
+}
+.comments-list .media{
+    border-bottom: 1px dotted #ccc;
+	background-color: #white;
 }
