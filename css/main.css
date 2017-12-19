@@ -172,7 +172,7 @@ hr{
 }
 
 #r {
-	background: #ff7878;
+	background: #7e16ce;
 	padding-top: 70px;
 	padding-bottom: 70px;
 }
@@ -207,5 +207,5 @@ hr{
 }
 .comments-list .media{
     border-bottom: 1px dotted #ccc;
-	background-color: #white;
+	background-color: #4286f4;
 }
